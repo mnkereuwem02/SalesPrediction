@@ -23,7 +23,7 @@ Gender = st.selectbox('Gender', ['Female', 'Male'])
 Age = st.number_input('Age', min_value=18)
 Location = st.selectbox('Order Location', list(shipping_location_cost.keys()))
 Category = st.selectbox('Product Category', ['Clothing', 'Other', 'Ornaments'])
-Price = st.number_input('Sales Price', min_value=5.0, max_value=5000.0, value=5.0, step=0.01)
+Price = st.number_input('Sales Price', min_value=0.0, max_value=5000.0, value=5.0, step=0.01)
 Quantity = st.number_input('Quantity', min_value=0)
 Sales_per_unit = Price / Quantity if Quantity != 0 else 0
 st.write(f"Sales Per Unit: {Sales_per_unit}")
