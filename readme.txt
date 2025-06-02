@@ -24,4 +24,4 @@ All core features, including the Streamlit-based UI and predictive analytics, re
 
 You can view the deployed application here:  
 
-https://salessprediction.streamlit.app/
+https://salespredictions.streamlit.app/
